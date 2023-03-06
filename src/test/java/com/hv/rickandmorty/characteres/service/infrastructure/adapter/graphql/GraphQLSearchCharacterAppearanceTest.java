@@ -15,7 +15,7 @@ public class GraphQLSearchCharacterAppearanceTest {
     void searchRickSanchezExpectedResultInformation() {
         var graphQLSearchCharacterAppearance = new GraphQLSearchCharacterAppearance();
 
-        String name = "Rick sanchez";
+        String name = "birdperson";
 
         var result = graphQLSearchCharacterAppearance.findByName(name);
 

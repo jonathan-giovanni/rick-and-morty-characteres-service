@@ -1,6 +1,7 @@
 package com.hv.rickandmorty.characteres.service.application;
 
 import com.hv.rickandmorty.characteres.service.domain.exception.CharacterNotFoundException;
+import com.hv.rickandmorty.characteres.service.domain.model.Character;
 import com.hv.rickandmorty.characteres.service.domain.port.SearchCharacterAppearanceRepository;
 
 public class SearchCharacterByName {
